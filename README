@@ -1,0 +1,25 @@
+This archive contains all the code that produces our experiments as presented in our paper:
+
+H. Kaplan, S. Schnapp, U. Stemmer, "Differentially Private Approximate Quantiles".
+
+To run the our experiments of dp approximate quantiles run the code in run_dp_experiments.py.
+To only run our Approximate Quantiles (AQ) algorithm run the code in run_dp_approximate_quantiles.py.
+
+-----------------
+Environment
+-----------------
+
+Before you run the code, check that you have python 3.6 installed on your device.
+Then go to code directory and set the PYTHONPATH to the code directory using the following command line:
+sudo export PYTHONPATH="./"
+
+----------------------
+Module dependencies
+----------------------
+python3.6 -m pip install numpy
+python3.6 -m pip install matplotlib
+python3.6 -m pip install torch
+
+For running our experiments you will need to download the code of the baseline algorithms from:
+https://github.com/google-research/google-research/tree/master/dp_multiq
+and put it at the following path:"./google_research/dp_multiq"
