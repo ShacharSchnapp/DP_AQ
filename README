@@ -2,7 +2,7 @@ This archive contains all the code that produces our experiments as presented in
 
 H. Kaplan, S. Schnapp, U. Stemmer, "Differentially Private Approximate Quantiles".
 
-To run the our experiments of dp approximate quantiles run the code in run_dp_experiments.py.
+To run our experiments of dp approximate quantiles run the code in run_dp_experiments.py.
 To only run our Approximate Quantiles (AQ) algorithm run the code in run_dp_approximate_quantiles.py.
 
 -----------------
